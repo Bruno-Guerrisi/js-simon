@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(10, 10, 83);
+    color: white;
+}
+
+.number{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.container-verify{
+    font-size: 36px;
+    width: 50%;
+}
+
+.currect-number{
+    color: green;
+    margin-bottom: 20px;
+}
+
+.error-number{
+    color: rgb(199, 6, 6);
+}
